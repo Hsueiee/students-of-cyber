@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Materials — Students of Cyber</title>
+  <meta name="description" content="Browse and download free cyber security study material — notes, videos, images, and PDFs.">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="lang-en">
+  <header class="nav">
+    <div class="nav-inner container">
+      <a href="index.html" class="logo"><img src="assets/logo.svg" alt="logo">Students<span>ofCyber</span></a>
+      <div class="nav-right">
+        <div class="lang-toggle"><button data-lang="en" class="active">EN</button><button data-lang="ru">اردو</button></div>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+        <nav class="nav-links" id="navLinks">
+          <a href="index.html">Home</a><a href="about.html">About</a><a href="materials.html">Materials</a>
+          <a href="resources.html">Resources</a><a href="events.html">Events</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="center" data-en>Study <span class="accent">Materials</span></h2>
+      <h2 class="center" data-ru>Study <span class="accent">Materials</span></h2>
+      <p class="center muted" data-en>Notes, slides, videos, images, and PDFs — shared by the community. Admins upload via the /admin panel.</p>
+      <p class="center muted" data-ru>Community ki shared notes, videos, images, PDFs. Admins /admin panel se upload karte hain.</p>
+
+      <div class="resource-grid" id="materialGrid">
+        <!-- Auto-filled from content/data/materials.json (added via /admin) -->
+        <div class="resource">
+          <span class="tag">PDF</span>
+          <h3>Getting Started in Cyber Security</h3>
+          <p>A beginner-friendly intro guide.</p>
+          <p class="meta"><a href="#">Open / Download →</a></p>
+        </div>
+        <div class="resource">
+          <span class="tag">VIDEO</span>
+          <h3>Networking Basics Lab</h3>
+          <p>Recorded walkthrough of core networking.</p>
+          <p class="meta"><a href="#">Watch →</a></p>
+        </div>
+        <div class="resource">
+          <span class="tag">IMAGE</span>
+          <h3>OSI Model Cheat Sheet</h3>
+          <p>Quick-reference diagram.</p>
+          <p class="meta"><a href="#">View →</a></p>
+        </div>
+      </div>
+
+      <p class="center muted" style="margin-top:2rem" data-en>Admins: open <a href="admin/">/admin</a> to upload new material (images, video, PDF).</p>
+      <p class="center muted" style="margin-top:2rem" data-ru>Admins: naya material upload karne <a href="admin/">/admin</a> kholen.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Students of Cyber. All rights reserved.</p>
+      <div class="socials"><a href="#" aria-label="Instagram">📷</a><a href="#" aria-label="Facebook">👍</a><a href="#" aria-label="YouTube">▶️</a><a href="#" aria-label="Telegram">✈️</a></div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

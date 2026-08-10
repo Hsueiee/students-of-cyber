@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Students of Cyber</title>
+  <meta name="description" content="Get in touch with Students of Cyber.">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="lang-en">
+  <header class="nav">
+    <div class="nav-inner container">
+      <a href="index.html" class="logo"><img src="assets/logo.svg" alt="logo">Students<span>ofCyber</span></a>
+      <div class="nav-right">
+        <div class="lang-toggle"><button data-lang="en" class="active">EN</button><button data-lang="ru">اردو</button></div>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+        <nav class="nav-links" id="navLinks">
+          <a href="index.html">Home</a><a href="about.html">About</a><a href="materials.html">Materials</a>
+          <a href="resources.html">Resources</a><a href="events.html">Events</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="section section-alt">
+    <div class="container split">
+      <div class="split-text">
+        <h2 data-en>Contact <span class="accent">Let's talk</span></h2>
+        <h2 data-ru><span class="accent">Baat karte hain</span></h2>
+        <p data-en>Questions, collaborations, or want to contribute material? Reach out.</p>
+        <p data-ru>Sawal, collaboration, ya material dena hai? Contact karo.</p>
+        <div class="contact-info">
+          <p>📱 <strong>Phone/WhatsApp:</strong> +92 __________ </p>
+          <p>✉️ <strong>Email:</strong> contact@studentsofcyber.example</p>
+          <p>📍 <strong>City:</strong> __________ </p>
+          <p>🔗 <strong>Socials:</strong> Instagram · Facebook · YouTube · Telegram</p>
+        </div>
+      </div>
+      <div class="split-visual">
+        <form id="contactForm" class="form">
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name" required placeholder="Full name">
+          <label for="email">Email or phone</label>
+          <input type="text" id="email" name="email" required placeholder="How can we reach you">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required placeholder="What do you need?"></textarea>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-note">Opens your email app — we'll reply soon.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Students of Cyber. All rights reserved.</p>
+      <div class="socials"><a href="#" aria-label="Instagram">📷</a><a href="#" aria-label="Facebook">👍</a><a href="#" aria-label="YouTube">▶️</a><a href="#" aria-label="Telegram">✈️</a></div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

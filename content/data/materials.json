@@ -1,0 +1,22 @@
+{
+  "materials": [
+    {
+      "title": "Getting Started in Cyber Security",
+      "type": "PDF",
+      "description": "A beginner-friendly intro guide.",
+      "url": ""
+    },
+    {
+      "title": "Networking Basics Lab",
+      "type": "VIDEO",
+      "description": "Recorded walkthrough of core networking.",
+      "url": ""
+    },
+    {
+      "title": "OSI Model Cheat Sheet",
+      "type": "IMAGE",
+      "description": "Quick-reference diagram.",
+      "url": ""
+    }
+  ]
+}
