@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: PLACEHOLDER/students-of-cyber   # <-- apna GitHub repo yahan daalna (Phase 4)
-  branch: main
+  repo: umair0055/students-of-cyber
+  branch: master
 
 publish_mode: editorial_workflow
 
