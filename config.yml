@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: umair0055/students-of-cyber
+  repo: Hsueiee/students-of-cyber
   branch: master
 
 publish_mode: editorial_workflow
