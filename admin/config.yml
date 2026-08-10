@@ -1,0 +1,30 @@
+backend:
+  name: github
+  repo: Hsueiee/students-of-cyber
+  branch: master
+  base_url: https://api.netlify.com/auth
+  auth_endpoint: authorize
+
+publish_mode: editorial_workflow
+
+media_folder: "assets/uploads"
+public_folder: "assets/uploads"
+
+collections:
+  - name: "materials"
+    label: "Study Material"
+    folder: "content/data"
+    slug: "materials"
+    create: false
+    format: "json"
+    file: "content/data/materials.json"
+    fields:
+      - name: "materials"
+        label: "Materials"
+        widget: "list"
+        summary: "{{fields.title}}"
+        fields:
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "type", label: "Type", widget: "select", options: ["PDF", "VIDEO", "IMAGE", "NOTE", "LINK"] }
+          - { name: "description", label: "Description", widget: "text", required: false }
+          - { name: "url", label: "File / Link", widget: "file", required: false, choose_url: true }
