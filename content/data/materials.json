@@ -17,6 +17,12 @@
       "type": "IMAGE",
       "description": "Quick-reference diagram.",
       "url": ""
+    },
+    {
+      "title": "Linux Command Line Basics (Demo)",
+      "type": "PDF",
+      "description": "Sample uploaded via API \u2014 replace with your real material.",
+      "url": ""
     }
   ]
 }
